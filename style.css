@@ -13,6 +13,7 @@ body {
 
 html {
   scroll-behavior: smooth !important;
+  overflow-x: hidden;
 }
 
 p {
@@ -206,6 +207,36 @@ section {
   gap: 1rem;
 }
 
+.running-dog {
+  position: absolute;
+  margin-left: -200px;
+  top: 80vh;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 5s;
+}
+
+.running-dog img {
+  height: 200px;
+  width: 200px;
+
+}
+
+
+@-webkit-keyframes run {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: 50%;
+  }
+  
+  100% {
+    left: 110%;
+  }
+}
+
 /* ICONS */
 
 .icon {
@@ -360,6 +391,8 @@ article .icon {
 
 .experience-list li {
   margin-left: 30px;
+  list-style: circle;
+  list-style-position: inside;
 }
 
 /* PROJECTS SECTION */

@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 html {
@@ -209,16 +210,15 @@ section {
 
 .running-dog {
   position: absolute;
-  margin-left: -200px;
-  top: 80vh;
+  bottom: 0;
+  margin-left: -50px;
   -webkit-animation: linear infinite;
   -webkit-animation-name: run;
   -webkit-animation-duration: 5s;
 }
 
 .running-dog img {
-  height: 200px;
-  width: 200px;
+  height: 100px;
 
 }
 
@@ -229,11 +229,11 @@ section {
   }
 
   50% {
-    left: 50%;
+    left: 60%;
   }
   
   100% {
-    left: 110%;
+    left: 120%;
   }
 }
 

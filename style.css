@@ -150,7 +150,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  /* height: 96vh; */
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -265,6 +265,7 @@ section {
 
 #about {
   position: relative;
+  /* height: 96vh; */
 }
 
 .about-containers {
@@ -353,10 +354,19 @@ article .icon {
   cursor: default;
 }
 
+.color-text {
+  color: #606060;
+}
+
+.experience-list li {
+  margin-left: 30px;
+}
+
 /* PROJECTS SECTION */
 
 #projects {
   position: relative;
+  /* height: 96vh; */
 }
 
 .color-container {
@@ -384,6 +394,7 @@ article .icon {
 /* CERTIFICATES */
 #certificates {
   position: relative;
+  /* height: 96vh; */
 }
 
 .color-container-cert {
@@ -411,6 +422,7 @@ article .icon {
 /* BADGES */
 #badge {
   position: relative;
+  /* height: 96vh; */
 }
 
 .color-container-badge {

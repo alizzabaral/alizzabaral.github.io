@@ -208,7 +208,11 @@ section {
   gap: 1rem;
 }
 
-.running-dog {
+
+
+/* CODE FOR TOTORO */
+
+/* .running-dog {
   position: absolute;
   bottom: 0;
   margin-left: -50px;
@@ -236,7 +240,7 @@ section {
   100% {
     left: 120%;
   }
-}
+} */
 
 /* ICONS */
 

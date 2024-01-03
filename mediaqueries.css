@@ -45,6 +45,10 @@
   .about-containers {
     margin-top: 0;
   }
+
+  .AWS_img-container img{
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -100,5 +104,9 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  .AWS_img-container img{
+    width: 100%;
   }
 }

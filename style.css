@@ -350,6 +350,28 @@ section {
   width: 400px;
   margin: auto 0;
 }
+/* AWS */
+#AWS {
+  position: relative;
+}
+
+
+.AWS_text-container {
+
+}
+
+.AWS-container {
+}
+
+.AWS_img-container {
+}
+
+.AWS_img-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
 
 /* EXPERIENCE SECTION */
 
